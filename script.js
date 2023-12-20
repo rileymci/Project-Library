@@ -15,3 +15,15 @@ addBookToLibrary("Riley's Book","Riley Mcilwain");
 
 console.log(myLibrary[0].name);
 
+
+const inputBookBtn = document.querySelector(".input");
+const dialog = document.querySelector("dialog");
+const addBookBtn = document.querySelector(".add");
+
+inputBookBtn.addEventListener("click", () => {
+    dialog.showModal();
+})
+
+addBookBtn.addEventListener("click", () => {
+    dialog.close();
+})
