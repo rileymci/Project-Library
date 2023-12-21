@@ -71,9 +71,9 @@ function addBookToLibrary(name, author, numPages, read){
 
 console.log(myLibrary);
 
-addBookToLibrary("LOTR - The Fellowship of the Ring","J.R.R. Tolkien", "310", true);
+//addBookToLibrary("LOTR - The Fellowship of the Ring","J.R.R. Tolkien", "310", true);
 
-console.log(myLibrary[0].name);
+//console.log(myLibrary[0].name);
 
 
 const inputBookBtn = document.querySelector(".input");
@@ -99,8 +99,6 @@ form.addEventListener("submit", (e) => {
     if (bookTitle == "" || authorName == "") {
       alert("Ensure you input a value in both fields!");
     } else {
-      // perform operation with form input
-      alert("This form has been successfully submitted!");
       console.log(
         `This form has a book title of ${bookTitle}, by ${authorName} and has ${numPages} total pages.`
       );
