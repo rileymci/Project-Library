@@ -1,4 +1,43 @@
-.test {
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(36, 61, 82);
+}
+
+nav {
+    background-color: white;
+    border-bottom: 2px solid;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+h1 {
+    font-size: 20px;
+}
+
+nav button {
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+}
+
+.readsub {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -13,5 +52,15 @@ input[type=checkbox] {
 dialog button{
     cursor: pointer;
     
+}
+
+.main {
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
