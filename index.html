@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Book Library</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <h1>A Simple Library</h1>
-    <button class="input">Add Book</button>
-
+    <button class="input">+ Add Book</button>
     <dialog>
-        <p>Add a book!<p>
-        <label for="bname">Book Title:</label>
-        <input type="text" id="bname" name="bname">
-        <label for="author">Author:</label>
-        <input type="text" id="author" name="author">
-        <label for="pages">Pages:</label>
-        <input type="text" id="pages" name="pages">
-        <button class="add">Add</button>    
+    <h2>Add a book!</h2>
+        <form action="" id="bookForm">
+        <label for="bname">Book Title:</label><br>
+        <input type="text" id="bname" name="bname"><br>
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author"><br>
+        <label for="pages">Pages:</label><br>
+        <input type="text" id="pages" name="pages"><br>
+        <div class="test">
+            <div class="check">
+                <input type="checkbox" id="read" name="read">
+                <label for="read">Read?</label>
+            </div>
+            <button class="submit">Add</button>
+        </div>
+        </form>   
     </dialog>
 
 </body>

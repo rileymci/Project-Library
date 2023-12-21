@@ -1,7 +1,17 @@
-dialog{
-    width: 15%;
+.test {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-.add {
-    margin-top: 15px;
+input[type=checkbox] {
+    cursor: pointer;
+
 }
+
+dialog button{
+    cursor: pointer;
+    
+}
+
